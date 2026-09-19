@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated manuscript."
+title: "Replication package for From Magnitudes to Signs: Joint Asymptotics of GMM under Repeated Second-Order Identification"
+type: software
+authors:
+  - family-names: "Ha"
+    given-names: "Jinyong"
+    email: "hjy075@korea.ac.kr"
+repository-code: "https://github.com/hjy075/from-magnitudes-to-signs-replication"
+date-released: 2026-09-19
+version: "1.0.0"

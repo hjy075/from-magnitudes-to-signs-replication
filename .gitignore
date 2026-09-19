@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.npz
+results/*_raw_reproduced.csv
+results/*_reproduced.csv
