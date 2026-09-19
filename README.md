@@ -20,6 +20,15 @@ The repository supports three sets of numerical results:
 
 No proprietary or external empirical data are used.
 
+## Manuscript-to-replication map
+
+| Manuscript item | Production script | Archived output |
+|---|---|---|
+| Table 1: quartic-root scaling and projected branch prediction | `scripts/common_ch_multidirectional_mc_projected.py` | `results/common_ch_mc_projected_R1000.csv` |
+| Large-n diagnostic discussed in Section 6.1 | `scripts/common_ch_multidirectional_mc_projected.py` | `results/common_ch_mc_projected_largeN_R300.csv` |
+| Table 2: feasible versus oracle weighting | `scripts/common_ch_feasible_twostep.py` | `results/common_ch_feasible_twostep_R300.csv` |
+| Table 3: feasible joint confidence-region audit | `scripts/common_ch_joint_ci_final_fast.py` + `scripts/summarize_joint_ci.py` | `results/common_ch_joint_ci_R1000_summary.csv` |
+
 ## Repository structure
 
 ```text
